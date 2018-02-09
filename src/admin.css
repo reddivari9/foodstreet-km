@@ -1,0 +1,77 @@
+@import '~antd/dist/antd.css';
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-loading {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    text-align: center;
+    background: rgba(0,0,0,0.05);
+    z-index: 100;
+}
+.main-loading > div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* Header CSS */
+.ant-layout-header {
+    display: inline-flex;
+}
+
+.ant-layout-header .ant-row {
+    width: 100%;
+}
+
+/* Sidebar css */
+.ant-layout-has-sider .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.ant-layout-has-sider .trigger:hover {
+  color: #1890ff;
+}
+
+.ant-layout-has-sider .logo {
+    font-size: 20px;
+    background-color: rgb(0,150,136);
+    height: 64px;
+    /* background: url(logo_black.svg) no-repeat top left; */
+    padding: 16px;
+    text-align: center;
+  /*background-size: contain;*/
+}
+
+
+
+/* Login CSS */
+
+.main-login {
+    margin-top: 15%;
+}
+
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+

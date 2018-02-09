@@ -1,0 +1,54 @@
+{
+  "id": 765,
+  "password": "pbkdf2_sha256$20000$Bei2G2eaZ7hn$Lale7xrlXq03JajuMyV8Xix4nLT7DgqVkDHYPInzI8c=",
+  "last_login": "2018-02-03T06:47:58Z",
+  "is_superuser": false,
+  "username": "praveen",
+  "first_name": "Praveen",
+  "last_name": "",
+  "email": "praveen.reddivari@gmail.com",
+  "is_staff": true,
+  "is_active": true,
+  "date_joined": "2018-01-27T06:56:07Z",
+  "phonenumber": "8686847878",
+  "groups": [],
+  "user_permissions": [],
+  "fcm_tokens": [],
+  "access_token": "a689f28f96c204bd642d2891a980e700d0e83a97",
+  "kitchens": [
+    {
+      "status": "BUSY",
+      "next_open_at": "2018-02-06 21:00:00",
+      "state": "BUSY",
+      "name": "Chennai ",
+      "id": 1
+    },
+    {
+      "status": "ACTIVE",
+      "next_open_at": "Now",
+      "state": "ACTIVE",
+      "name": "Vijayawada Kitchen",
+      "id": 2
+    },
+    {
+      "status": "ACTIVE",
+      "next_open_at": "Now",
+      "state": "ACTIVE",
+      "name": "Mysore Kitchen",
+      "id": 3
+    },
+    {
+      "status": "ACTIVE",
+      "next_open_at": "Now",
+      "state": "ACTIVE",
+      "name": "Aaruush Stall",
+      "id": 4
+    }
+  ],
+  "statuses": [
+    {
+      "name": "Closed",
+      "value": "CLOSED"
+    }
+  ]
+}
